@@ -23,7 +23,6 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
 admin.py
 
 from django.contrib import admin
@@ -45,7 +44,6 @@ class football_players(models.Model):
 
 class football_playersAdmin(admin.ModelAdmin):
   list_display=('first_name','last_name','dob','age','matches_played','total_goals','email')
-'''
 ## OUTPUT
 
 ![Screenshot (29)](https://github.com/BharathJayachandran/ORM/assets/122089525/9da38c67-b4c0-4b9a-b8be-a19a05471591)
